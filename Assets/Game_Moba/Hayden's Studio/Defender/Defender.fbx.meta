@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 8f3171ef0faa7474babf93913c6ffa91
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera.001
+    100004: Defender
+    100006: //RootNode
+    100008: Defender_Ske
+    100010: Head
+    100012: Hips
+    100014: Lamp
+    100016: Lamp.001
+    100018: LeftArm
+    100020: LeftFingerBase
+    100022: LeftFoot
+    100024: LeftForeArm
+    100026: LeftHand
+    100028: LeftHandIndex1
+    100030: LeftLeg
+    100032: LeftShoulder
+    100034: LeftToeBase
+    100036: LeftUpLeg
+    100038: LHipJoint
+    100040: LowerBack
+    100042: LThumb
+    100044: metarig
+    100046: Neck
+    100048: Neck1
+    100050: Plane
+    100052: Plane.002
+    100054: Point
+    100056: RHipJoint
+    100058: RightArm
+    100060: RightFingerBase
+    100062: RightFoot
+    100064: RightForeArm
+    100066: RightHand
+    100068: RightHandIndex1
+    100070: RightLeg
+    100072: RightShoulder
+    100074: RightToeBase
+    100076: RightUpLeg
+    100078: RThumb
+    100080: Spine
+    100082: Spine1
+    400000: Camera
+    400002: Camera.001
+    400004: //RootNode
+    400006: Defender
+    400008: Defender_Ske
+    400010: Head
+    400012: Hips
+    400014: Lamp
+    400016: Lamp.001
+    400018: LeftArm
+    400020: LeftFingerBase
+    400022: LeftFoot
+    400024: LeftForeArm
+    400026: LeftHand
+    400028: LeftHandIndex1
+    400030: LeftLeg
+    400032: LeftShoulder
+    400034: LeftToeBase
+    400036: LeftUpLeg
+    400038: LHipJoint
+    400040: LowerBack
+    400042: LThumb
+    400044: metarig
+    400046: Neck
+    400048: Neck1
+    400050: Plane
+    400052: Plane.002
+    400054: Point
+    400056: RHipJoint
+    400058: RightArm
+    400060: RightFingerBase
+    400062: RightFoot
+    400064: RightForeArm
+    400066: RightHand
+    400068: RightHandIndex1
+    400070: RightLeg
+    400072: RightShoulder
+    400074: RightToeBase
+    400076: RightUpLeg
+    400078: RThumb
+    400080: Spine
+    400082: Spine1
+    2300000: Plane
+    2300002: Plane.002
+    3300000: Plane
+    3300002: Plane.002
+    4300000: Defender
+    4300004: Plane
+    7400000: Walk
+    7400002: Flee
+    7400004: Attack1
+    7400006: Attack2
+    7400008: Idle
+    7400010: Dance
+    7400012: Happy
+    7400014: Sad
+    7400016: Die
+    7400018: Defender_Ske|Attack-two handed2
+    7400020: Defender_Ske|Dance-balls
+    7400022: Defender_Ske|Death-Backwards
+    7400024: Defender_Ske|Run-flee.001
+    7400026: Defender_Ske|scared.001
+    7400028: Defender_Ske|sleep-on side.002
+    7400030: Defender_Ske|victory.001
+    7400032: Defender_Ske|Walk-normal.001
+    7400034: metarig|Walk-normal.001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Defender
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Flee
+      takeName: Flee
+      firstFrame: .400000006
+      lastFrame: 19.75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Defender
+        weight: 1
+      - path: Defender_Ske
+        weight: 1
+      - path: Defender_Ske/Hips
+        weight: 1
+      - path: Defender_Ske/Hips/LHipJoint
+        weight: 1
+      - path: Defender_Ske/Hips/LHipJoint/LeftUpLeg
+        weight: 1
+      - path: Defender_Ske/Hips/LHipJoint/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Defender_Ske/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Defender_Ske/Hips/LHipJoint/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/LeftShoulder
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingerBase/LeftHandIndex1
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LThumb
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/Neck
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/Neck/Neck1/Head
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/RightShoulder
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RightFingerBase/RightHandIndex1
+        weight: 1
+      - path: Defender_Ske/Hips/LowerBack/Spine/Spine1/RightShoulder/RightArm/RightForeArm/RightHand/RThumb
+        weight: 1
+      - path: Defender_Ske/Hips/RHipJoint
+        weight: 1
+      - path: Defender_Ske/Hips/RHipJoint/RightUpLeg
+        weight: 1
+      - path: Defender_Ske/Hips/RHipJoint/RightUpLeg/RightLeg
+        weight: 1
+      - path: Defender_Ske/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Defender_Ske/Hips/RHipJoint/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: Plane.002
+        weight: 1
+      - path: Point
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
